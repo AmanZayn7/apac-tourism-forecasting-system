@@ -1,4 +1,4 @@
-# Smart Traveler Insights System (Precomputed, Streamlit)
+# Smart Traveler Insights System 
 A comparative machine learning forecasting and decision-support system designed to analyze and predict post-pandemic recovery in international tourist arrivals across major Asia-Pacific tourism hubs.
 The project evaluates Ridge Regression, Random Forest, and XGBoost against a transparent Seasonal-Naïve baseline under structural shock conditions introduced by COVID-19, using a feature-engineered, rolling-origin validation framework.
 
