@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+traveler/
+
+# Secrets
+.env
+secrets.toml
+
+# Raw data (keep out of git)
+raw/
+data/raw/
+data/processed/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.pt
+*.onnx
