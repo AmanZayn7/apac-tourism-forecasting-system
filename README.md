@@ -125,9 +125,14 @@ This system demonstrates that:
 
 ## Quick Start
 ```bash
-git clone https://github.com/AmanZayn7/smart-tourism-recovery-forecasting.git
-cd smart-tourism-recovery-forecasting
+git clone https://github.com/AmanZayn7/apac-tourism-forecasting-system.git
+cd apac-tourism-forecasting-system
+
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python -m stis.build_artifacts
 streamlit run app/app.py
 ```
